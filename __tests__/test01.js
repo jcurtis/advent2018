@@ -90,6 +90,6 @@ describe('part2', () => {
   test('input 1', () => {
     const answer2 = part2(input1);
     console.log({ answer2 });
-    // expect(answer2).toBe(595);
+    expect(answer2).toBe(80598);
   });
 });
