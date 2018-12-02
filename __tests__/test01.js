@@ -39,9 +39,7 @@ describe('part1', () => {
   });
 
   test('input 1', () => {
-    const answer1 = part1(input1);
-    console.log({ answer1 });
-    expect(answer1).toBe(595);
+    expect(part1(input1)).toMatchInlineSnapshot(`595`);
   });
 });
 
@@ -88,8 +86,6 @@ describe('part2', () => {
   });
 
   test('input 1', () => {
-    const answer2 = part2(input1);
-    console.log({ answer2 });
-    expect(answer2).toBe(80598);
+    expect(part2(input1)).toMatchInlineSnapshot(`80598`);
   });
 });
