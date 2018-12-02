@@ -1,15 +1,16 @@
 {
   "extends": [
-    "airbnb",
+    "problems/node8",
     "prettier"
   ],
+  "parserOptions": {
+    "ecmaVersion": 8
+  },
   "env": {
     "node": true,
     "jest": true
   },
   "rules": {
-    "no-loop-func": 0,
-    "no-console": 0,
-    "no-plusplus": 0
+    "strict": 0
   }
 }
